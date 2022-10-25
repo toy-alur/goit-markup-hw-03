@@ -1,3 +1,26 @@
+/* global reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* general syles */
 :root {
   --main-font: 'Roboto', sans-serif;
@@ -12,6 +35,7 @@
   --background-second-color: #2f303a;
   --background-third-color: #f5f4fa;
 }
+
 body {
   font-family: var(--main-font);
   font-size: 14px;
@@ -55,7 +79,25 @@ body {
   overflow: hidden;
 }
 
+.container {
+  width: 1600px;
+  padding: 200px;
+  margin: 0 auto;
+
+  background: #ffffff;
+}
+
 /* studio styles */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 
 .header-logo.link {
   font-family: var(--second-font);
@@ -70,6 +112,7 @@ body {
 }
 
 .nav-list {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,6 +125,7 @@ body {
 }
 
 .nav-contacts {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

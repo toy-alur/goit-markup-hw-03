@@ -322,11 +322,10 @@ body {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-right: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
-
-  border: 1px solid #eeeeee;
 }
 
 .portfolio-item-text {
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 

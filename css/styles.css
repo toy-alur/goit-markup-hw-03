@@ -86,14 +86,14 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-
-  background-color: var(--background-color);
 }
 
 /* studio styles */
 
 .header {
   border-bottom: 1px solid #ececec;
+
+  background-color: var(--background-color);
 }
 
 .header > .container {
@@ -157,14 +157,14 @@ body {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--background-second-color);
 }
 
 .hero > .container {
   text-align: center;
-  padding-top: 106px;
-  padding-bottom: 106px;
-  background-color: inherit;
 }
 
 .hero-title {
@@ -191,9 +191,11 @@ body {
   letter-spacing: 0.06em;
   padding: 10px 32px;
 
-  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+
+  background-color: var(--accent-color);
 }
 
 .hero-button:hover,
@@ -206,6 +208,10 @@ body {
   display: flex;
 }
 
+.benefits {
+  background-color: var(--background-color);
+}
+
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -216,12 +222,18 @@ body {
   color: var(--second-color);
 }
 
+.benefits-item {
+  flex-basis: 270px;
+}
+
 .benefits-item:not(:last-child) {
   margin-right: 30px;
 }
 
 .about {
   padding-top: 0;
+
+  background-color: var(--background-color);
 }
 
 .about-title,
@@ -245,10 +257,6 @@ body {
 
 .team {
   background-color: var(--background-third-color);
-}
-
-.team > .container {
-  background-color: inherit;
 }
 
 .team-member-list {
@@ -287,6 +295,10 @@ body {
 }
 
 /* portfolio styles */
+
+.portfolio {
+  background-color: var(--background-color);
+}
 
 .portfolio-filter {
   display: flex;
@@ -359,21 +371,17 @@ body {
 /* footer styles */
 
 .footer {
-  background-color: var(--background-second-color);
-}
-
-.footer > .container {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: inherit;
+  background-color: var(--background-second-color);
 }
 
 .footer-logo.link {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.92;
+  line-height: 1.19;
   margin-bottom: 20px;
 
   color: var(--background-color);
